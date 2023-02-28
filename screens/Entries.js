@@ -1,5 +1,5 @@
 import { View, StyleSheet, TouchableOpacity, Text, Alert, Button, ScrollView, RefreshControl } from 'react-native';
-import { GlobalColors } from '../constants/styles';
+import { GlobalColors } from '../helper';
 import { useState, useEffect } from "react";
 // import { collection, onSnapshot } from 'firebase/firestore';
 import { queryEntry, deleteEntry } from '../firebase/firestore';
